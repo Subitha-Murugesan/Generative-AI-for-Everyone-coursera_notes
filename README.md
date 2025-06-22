@@ -228,6 +228,8 @@ Using Generative AI in software applications
 ----------------------------------------------------------------------------------------------------------------------
 
 ### Lifecycle of a GEN AI Project:
+![Lifecycle of a generative Al project](https://github.com/user-attachments/assets/6fc87700-b9ef-47c1-a7f6-df654a36b63e)
+![Lifecycle of a generative Al project](https://github.com/user-attachments/assets/352a9544-9189-40da-a8f1-1254e37d81cc)
 
 One more example: Food ordering system  
 
@@ -244,6 +246,8 @@ Building Gen AI is experimental process - we repeatedly find and fix mistakes
 ---
 
 ### Cost Intuition:
+![How much does it cost](https://github.com/user-attachments/assets/a15df137-75a2-45ca-a89c-61fbb0232af8)
+
 
 **What is a token?**  
 Examples:  
@@ -257,15 +261,25 @@ Roughly 1 token = 3/4 words
 300 words = 400 tokens  
 
 **Estimating cost**
+![Estimating Cost](https://github.com/user-attachments/assets/41c786d9-5685-49b4-b4b3-55976f12ebae)
 
 ---
 
 ### Advanced Technology Beyond Prompting:
 
 **RAG (Retrieval Augmented Generation):**  
+![Retrieval Augmented Generation (RAG) example](https://github.com/user-attachments/assets/6ca19e92-068e-4eeb-857f-c88ce7d49a4e)
+![Retrieval Augmented Generation (RAG) example](https://github.com/user-attachments/assets/c3b9eacc-c7f3-4185-b92a-ac08aeac5ff1)
+![promptin andro on hone](https://github.com/user-attachments/assets/fc6c58a5-3d9a-4e6f-ae70-1a0447a3cf18)
+
+
 
 Examples of RAG:  
-- Chat with PDF files  
+- Chat with PDF files
+  ![Examples of RAG applications](https://github.com/user-attachments/assets/0c103c55-5d46-4063-bf1d-2558d65e2b42)
+  ![Examples of RAG applications](https://github.com/user-attachments/assets/e2edd60a-72aa-43f1-b6da-16df86675d8c)
+
+
 - New form of web search - Bing, Google Search  
 
 **Big Idea: LLM as reasoning engine**  
@@ -279,6 +293,7 @@ Examples of RAG:
 
 If LLM has reached the token limit we can achieve the task by doing the fine tuning  
 Implementation of Fine tuning is difficult compared to the RAG  
+![Pretraining and Fine-tuning](https://github.com/user-attachments/assets/b28c53bb-be56-4a8a-b48f-e3a2d0d75eb5)
 
 **Pretraining:** LLM learns with 100B of data to predict the response  
 **Fine tuning:** Take the pretrained LLM and train with set of particular 1000 to 10000 words dataset along with the pretrained dataset, create a new dataset and train the LLM  
